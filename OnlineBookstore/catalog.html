@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BookWorm - Book Catalog</title>
+    <link rel="stylesheet" href="style_1.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="loadHomeSearch()">
+
+    <h1>BookWorm</h1>
+
+    <div class="top-bar">
+
+        <a href="index_1.html">Home</a>
+        <a href="registration.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="profile.html">Profile</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="cart.html">Cart</a>
+
+    </div>
+
+    <h2>Book Catalog</h2>
+
+    <input type="text" id="searchBook" placeholder="Search for a book">
+    <input type="button" value="Search" onclick="searchBooks()">
+
+    <p id="searchMessage"></p>
+
+    <br>
+    <br>
+
+    <div class="book-list">
+
+        <div class="book">
+            <img src="book1.jpg" width="150" height="200">
+            <h3>The White Tiger</h3>
+            <p>Author: Aravind Adiga</p>
+            <p>Category: Fiction</p>
+            <p>Price: €16</p>
+            <input type="button" value="Add to Cart" onclick="addToCart('The White Tiger', 16)">
+        </div>
+
+        <div class="book">
+            <img src="book2.jpg" width="150" height="200">
+            <h3>The Guide</h3>
+            <p>Author: R. K. Narayan</p>
+            <p>Category: Fiction</p>
+            <p>Price: €14</p>
+            <input type="button" value="Add to Cart" onclick="addToCart('The Guide', 14)">
+        </div>
+
+        <div class="book">
+            <img src="book3.jpg" width="150" height="200">
+            <h3>Clean Code</h3>
+            <p>Author: Robert C. Martin</p>
+            <p>Category: Technology</p>
+            <p>Price: €30</p>
+            <input type="button" value="Add to Cart" onclick="addToCart('Clean Code', 30)">
+        </div>
+
+        <div class="book">
+            <img src="book4.jpg" width="150" height="200">
+            <h3>Artificial Intelligence: A Modern Approach</h3>
+            <p>Authors: Stuart Russell and Peter Norvig</p>
+            <p>Category: Artificial Intelligence</p>
+            <p>Price: €45</p>
+            <input type="button" value="Add to Cart" onclick="addToCart('Artificial Intelligence: A Modern Approach', 45)">
+        </div>
+
+        <div class="book">
+            <img src="book5.jpg" width="150" height="200">
+            <h3>A Brief History of Time</h3>
+            <p>Author: Stephen Hawking</p>
+            <p>Category: Science</p>
+            <p>Price: €18</p>
+            <input type="button" value="Add to Cart" onclick="addToCart('A Brief History of Time', 18)">
+        </div>
+
+        <div class="book">
+            <img src="book6.jpg" width="150" height="200">
+            <h3>The Palace of Illusions</h3>
+            <p>Author: Chitra Banerjee Divakaruni</p>
+            <p>Category: Indian Literature</p>
+            <p>Price: €15</p>
+            <input type="button" value="Add to Cart" onclick="addToCart('The Palace of Illusions', 15)">
+        </div>
+
+    </div>
+
+    <p id="catalogMessage"></p>
+
+</body>
+
+</html>

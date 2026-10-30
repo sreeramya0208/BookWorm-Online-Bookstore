@@ -1,0 +1,110 @@
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    color: black;
+}
+
+h1 {
+    color: midnightblue;
+    text-align: center;
+}
+
+.top-bar {
+    background-color: black;
+    padding: 12px;
+}
+
+.top-bar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.top-bar a:hover {
+    color: lightblue;
+}
+
+.welcome {
+    color: red;
+    text-align: center;
+}
+
+.search-heading {
+    color: #1565C0;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 2px solid blue;
+}
+
+input[type="email"] {
+    padding: 8px;
+    border: 2px solid green;
+}
+
+input[type="password"] {
+    padding: 8px;
+    border: 2px solid brown;
+}
+
+input[type="submit"] {
+    padding: 8px;
+    background-color: lightgray;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+.book-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.book {
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid deeppink;
+}
+
+.categories {
+    background-color: white;
+    padding: 20px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book img {
+    display: block;
+    margin: auto;
+}
+
+.book input[type="button"] {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.categories-heading {
+    color: #2E7D32;
+}
+
+.featured-heading {
+    color: #8E24AA;
+}
+
+.intro {
+    text-align: center;
+    color: #3F2A56;
+    font-size: 18px;
+}
+
+
